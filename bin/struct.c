@@ -19,7 +19,7 @@ typedef struct Gameinformation {
 	struct Gameinfo * friendGame; // 연관 게임 업체
 } GAME_INFO;
 
-int main(void)
+int main_struct(void)
 {
 
 	// [게임 출시]
