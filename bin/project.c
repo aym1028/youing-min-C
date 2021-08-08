@@ -79,4 +79,6 @@ int main_project(void)
 
     return 0;
 }
- 
+git add .
+git commit -m "내가 보내는 파일 이름"
+git push 

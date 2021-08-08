@@ -108,11 +108,9 @@ int main(void)
  	game2.name = "한글게임 2";
  	game2.year = 2014;
 	
-	struct Gameinformation game3;
-	game3.name = "영어 게임";
-	game3.year = 2016;
 	
-	5:51:24
+	
+	
 	
 	return 0;
 }
