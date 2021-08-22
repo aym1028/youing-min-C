@@ -39,7 +39,7 @@ struct CAT cats[5];
 void initCats();//고양이 정보 초기화
 void printCat(int selected); //내가 뽑은 고양이의 정보 출력
 
-int main(void)
+int main_struct_project(void)
 {
 	srand(time(NULL));
 	initCats();
