@@ -3,7 +3,7 @@
 
 
 #define MAX 10000
-int main(void)
+int main_file(void)
 {
 	//파일 입출력
 	//파일에 어떤 데이터를 저장
