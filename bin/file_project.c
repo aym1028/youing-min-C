@@ -11,7 +11,7 @@
 
 #define MAX 100000
 
-int main(void)
+int main_file_project(void)
 	
 {
 	char line[MAX];//파일에서 불러온 내용을 저장할 변수
