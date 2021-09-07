@@ -11,7 +11,7 @@
 // 	return 0;
 // }
 
-template <typename T>
+template <typename T> //이렇게 사용시 손실 값이 없음 자료형
 inline T SQUARE(T x)
 {
 	return x*x;
