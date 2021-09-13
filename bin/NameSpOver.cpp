@@ -6,7 +6,7 @@ namespace Parent
 	
 	namespace SubOne
 	{
-		int num =3;
+		int num =6;
 	}
 	namespace SubTwo
 	{
