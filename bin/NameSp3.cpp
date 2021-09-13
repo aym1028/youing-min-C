@@ -1,4 +1,4 @@
-#include <iostream>
+git#include <iostream>
 
 
 namespace BestComImp1
@@ -30,7 +30,7 @@ void BestComImp1::SimpleFunc(void)
 }
 void BestComImp1::PrettyFunc(void)
 {
-	std::cout<<"so sorry~~!"<<std::endl;
+	std::cout<<"so sorry~~very sorry!"<<std::endl;
 }
 void ProgComImp1::SimpleFunc(void)
 {
