@@ -9,6 +9,7 @@ namespace ProgcomImp1
 {
 	void SimpleFunc(void);
 }
+
 int main(void)
 {
 	BestComImp1::SimpleFunc();
