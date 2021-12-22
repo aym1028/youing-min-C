@@ -66,7 +66,7 @@ void showMenu(void)
 	cout<<"1. 계좌개설"<<endl;
 	cout<<"2. 입금"<<endl;
 	cout<<"3. 출금"<<endl;
-	cout<<"4. 계좌정보 전체 출력"<<endl;
+	cout<<"4. 나의 계좌정보 출력"<<endl;
 	cout<<"5, 프로그램 종료"<<endl;
 }
 
@@ -133,17 +133,25 @@ void WithdrawMoney(void)
 }
 void ShowALLaccinfo(void)
 {
+	int myid;
+	cout<<"계좌ID: ";cin>>myid;
 	for(int i=0;i<accNUM;i++)
+	{	
+		if(accArr[i].accID == myid)
 		{
 			cout<<"계좌ID: "<<accArr[i].accID<<endl;
 			cout<<"이름  : "<<accArr[i].cusName<<endl;
 			cout<<"잔액  : "<<accArr[i].balance<<endl;
-			
 		}
+	}
+	cout<<"입력하신 ID: "<<myid<<"는 없는아이디 입니다."<<endl;
+	return;
+		
 		
 }
-git add .
-git commit -m "내가 보내는 파일 이름"
-git push 
+// git add .
+// git commit -m "내가 보내는 파일 이름"
+// git push 
 
 
+	
